@@ -1,0 +1,30 @@
+{
+	"emitLegacyScripts": false,
+    "name": "DataSession Test",
+    "tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$path": "Packages",
+
+				"DataSession": {
+					"$path": "src"
+				}
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"DataSessionTests": {
+				"$path": "test/server"
+			}
+		},
+
+		"ReplicatedFirst": {
+			"$className": "ReplicatedFirst",
+			"DataSessionTests": {
+				"$path": "test/client"
+			}
+		}
+	}
+  }

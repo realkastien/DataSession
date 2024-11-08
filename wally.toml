@@ -1,0 +1,16 @@
+[package]
+name = "realkastien/datasession"
+description = "An all-in-one, secure, fast and reliable data manager ideal for your game."
+
+license = "MIT"
+version = "0.0.1"
+authors = ["realkastien"]
+
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+exclude = ["**"]
+include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml"]
+
+[dependencies]
+Reliability = "realkastien/reliability@0.0.4"
